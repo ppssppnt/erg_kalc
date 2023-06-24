@@ -6,11 +6,11 @@
 
 - **Технологический стек**: Проект реализован на языке программирования Java с использованием JavaFX для создания графического интерфейса.
 - **Статус**: Бета-версия, версия 0.1.
-- **Ссылка на продукт или демо-экземпляр**: [Калькулятор энергосбережения на GitHub]([https://github.com/example/energy-calculator](https://github.com/ppssppnt/erg_kalc/edit/main/README.md))
+- **Ссылка на продукт или демо-экземпляр**: [Калькулятор энергосбережения на GitHub](https://github.com/ppssppnt/erg_kalc/edit/main/README.md)
 
 **Скриншот рабочего окна приложения**:
 
-![Скриншот]([https://example.com/screenshot.png](https://github.com/ppssppnt/erg_kalc/blob/main/docs/design/1.jpg?raw=true))
+![Скриншот](https://github.com/ppssppnt/erg_kalc/blob/main/docs/architecture/1.jpg)
 
 ## Архитектура
 
@@ -20,7 +20,7 @@
 - **Logic (Логика)**: Обрабатывает логику приложения, включая рассчет общего потребления энергии на основе введенных данных.
 - **Model (Модель)**: Хранит данные о электроприборах, их количестве и потреблении.
 
-![Диаграмма классов]([https://example.com/class-diagram.png](https://github.com/ppssppnt/erg_kalc/blob/main/docs/architecture/cl1.png?raw=true))
+![Диаграмма классов](https://github.com/ppssppnt/erg_kalc/blob/main/docs/architecture/cl1.png)
 
 ## Зависимости
 
