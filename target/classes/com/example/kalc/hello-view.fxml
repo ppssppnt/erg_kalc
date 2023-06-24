@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="490.0" prefWidth="1022.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kalc.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <ListView fx:id="ilist" prefHeight="200.0" prefWidth="200.0" />
+      <HBox prefHeight="23.0" prefWidth="982.0">
+         <children>
+            <Label fx:id="label1" prefHeight="23.0" prefWidth="224.0" text="                                       Название" />
+            <Label prefHeight="102.0" prefWidth="148.0" text="             Количество" />
+            <Label prefHeight="96.0" prefWidth="150.0" text="                   Цена" />
+         </children>
+      </HBox>
+      <HBox prefHeight="121.0" prefWidth="346.0">
+         <children>
+            <Button fx:id="butadd" mnemonicParsing="false" onAction="#ButtonItemAdd" prefHeight="126.0" prefWidth="111.0" text="Добавить" />
+            <TextField fx:id="elec" />
+            <TextField fx:id="kol" />
+            <TextField fx:id="potreb" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
