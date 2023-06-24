@@ -10,7 +10,7 @@
 
 **Скриншот рабочего окна приложения**:
 
-![Скриншот](https://github.com/ppssppnt/erg_kalc/blob/main/docs/architecture/1.jpg)
+![Скриншот](https://github.com/ppssppnt/erg_kalc/blob/main/docs/architecture/1.png)
 
 ## Архитектура
 
